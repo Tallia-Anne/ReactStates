@@ -1,0 +1,31 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.CompteursContainer h1 {
+padding-bottom: 22px;
+}
+
+.CompteursContainer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.box_compteur {
+background-color: rgb(66, 41, 7);
+} 
+
+.CompteursContainerbottom {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 12px;
+    margin: 19px;
+    box-shadow: 1px 1px 4px brown;
+    border-radius: 8px;
+
+}

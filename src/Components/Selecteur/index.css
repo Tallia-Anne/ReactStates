@@ -1,0 +1,92 @@
+.selContainer {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.selOrange {
+    border: solid 2px black;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+}
+
+
+.selGreen {
+    border: solid 2px black;
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.selContainerrondeimage {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.selcircleOrange {
+    border: solid 2px black;
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+     border-radius: 50%;
+}
+
+.selcircleImage1 {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-image: url("https://images.pexels.com/photos/1697912/pexels-photo-1697912.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: rotateMe 3s ease;
+    
+}
+
+.selcircleImage2 {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-image: url("https://images.pexels.com/photos/60909/rose-yellow-flower-petals-60909.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: rotateMe 3s ease;
+    
+}
+
+.selcircleImage3 {
+    border: solid 2px black;
+    border-radius: 50%;
+    background-image: url("https://images.pexels.com/photos/1166869/pexels-photo-1166869.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: rotateMe 3s ease;
+    
+}
+
+@keyframes rotateMe {
+
+from {
+    opacity: 0;
+}
+to {
+    opacity: 1;
+}
+
+
+    
+}
